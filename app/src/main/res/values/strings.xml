@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CarAPITest</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Log out</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="title_activity_cars_list">Cars List</string>
+    <string name="title_activity_detail">Car Details</string>
+</resources>
