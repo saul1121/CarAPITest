@@ -44,10 +44,24 @@ public class CarsListActivity extends AppCompatActivity {
         recyclerView.getAdapter();
         mAdapter = new CarAdapter(this, new ArrayList<CarItem>());
         setLinearLayout();
+        setLinearLayout();
+        setLinearLayout();
+        setLinearLayout();
+        setLinearLayout();
         swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
         swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
         swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
         swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
+
+
         swipeLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
