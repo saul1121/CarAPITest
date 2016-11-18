@@ -36,6 +36,8 @@ public class CarsListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cars_list);
+        setContentView(R.layout.activity_cars_list);
+        setContentView(R.layout.activity_cars_list);
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         recyclerView.getAdapter();
