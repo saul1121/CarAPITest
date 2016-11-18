@@ -45,6 +45,9 @@ public class CarsListActivity extends AppCompatActivity {
         mAdapter = new CarAdapter(this, new ArrayList<CarItem>());
         setLinearLayout();
         swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
+        swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
         swipeLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
