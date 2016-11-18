@@ -38,6 +38,10 @@ public class CarsListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_cars_list);
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        recyclerView.getAdapter();
+        recyclerView.getAdapter();
+        recyclerView.getAdapter();
+        recyclerView.getAdapter();
         mAdapter = new CarAdapter(this, new ArrayList<CarItem>());
         setLinearLayout();
         swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe);
